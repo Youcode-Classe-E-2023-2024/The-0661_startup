@@ -1,11 +1,14 @@
 let g = document.querySelectorAll(".goto")
+let right = document.querySelectorAll(".right")
 
-g.forEach((ele) =>{
+g.forEach((ele, key) =>{
     ele.addEventListener("mouseover", function(){
-        ele.src = "/pictures/coatching/right.png"
+        ele.style.opacity = "0"
+        right[key].style.opacity = "1"
     })  
     ele.addEventListener("mouseleave", function(){
-        ele.src = "/pictures/coatching/plus.png"
+        ele.style.opacity = "1"
+        right[key].style.opacity = "0"
     })
     
 })
