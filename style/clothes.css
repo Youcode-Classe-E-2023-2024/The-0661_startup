@@ -250,3 +250,34 @@
     background-color: #F5ECEC;
 }
 /* end clothesW */
+.pic-backM{
+    background-image: url("/pictures/photo/gym\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 19%;
+    text-align: center;
+}
+.txt-pic-backM{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* padding-right: 15rem; */
+}
+.txt-pic-backM h3{
+    color: #fff;
+    font-size: 30px;
+}
+.txt-pic-backM h6{
+    font-size: 16px;
+    color: #fff;
+}
+.txt-pic-backM button{
+    background-color: #B62323;
+    width: 9rem;
+    height: 45px;
+    border-radius: 25px;
+    color: #fff;
+}
