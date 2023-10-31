@@ -1,8 +1,11 @@
-let g = document.getElementById("goto")
-g.addEventListener("mouseover", function(){
-    g.src = "/pictures/coatching/right.png"
-})
+let g = document.querySelectorAll(".goto")
 
-g.addEventListener("mouseleave", function(){
-    g.src = "/pictures/coatching/plus.png"
+g.forEach((ele) =>{
+    ele.addEventListener("mouseover", function(){
+        ele.src = "/pictures/coatching/right.png"
+    })  
+    ele.addEventListener("mouseleave", function(){
+        ele.src = "/pictures/coatching/plus.png"
+    })
+    
 })
