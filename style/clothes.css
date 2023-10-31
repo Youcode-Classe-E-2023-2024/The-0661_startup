@@ -97,7 +97,7 @@
     font-size: 20px;
 }
 .autre-container{
-    height: 90vh;
+    height: 110vh;
     background-color: #F5ECEC;
     display: flex;
     flex-direction: column;
@@ -128,4 +128,28 @@
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+.mini-footer{
+    background-color: #fff;
+   height: 35vh;
+   display: flex;
+   justify-content: center;
+   
+   
+}
+.tout{
+    display: flex;
+   justify-content: center;
+   gap: 40px;
+   text-align: center;
+   padding-top: 70px;
+
+}
+.waa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.waa img{
+    width: 20px;
 }
