@@ -1,16 +1,14 @@
-let e = document.getElementById("clothes")
-let s = document.getElementById("sex")
+let g = document.querySelectorAll(".goto")
+let right = document.querySelectorAll(".right")
 
-let eq = document.getElementById("eq")
-let se = document.getElementById("se")
-
-function toggleSubs(e, s) {
-    e.addEventListener("mouseover", function () {
-        s.style.display = "block"
+g.forEach((ele, key) =>{
+    ele.addEventListener("mouseover", function(){
+        ele.style.opacity = "0"
+        right[key].style.opacity = "1"
+    })  
+    ele.addEventListener("mouseleave", function(){
+        ele.style.opacity = "1"
+        right[key].style.opacity = "0"
     })
-    e.addEventListener("mouseleave", function () {
-        s.style.display = "none"
-    })
-}
-toggleSubs(eq, se)
-toggleSubs(e, s)
+    
+})
