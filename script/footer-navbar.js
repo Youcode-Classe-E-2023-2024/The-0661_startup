@@ -1,7 +1,7 @@
     function generateNavbar() {
         return (
             `
-            <div class="bg-[#D9D9D990] backdrop-blur z-[99] fixed w-full flex justify-between items-center py-4 px-8">
+            <div class="bg-[#D9D9D990] backdrop-blur z-[99] fixed top-0 w-full flex justify-between items-center py-4 px-8">
             <img src="pictures/logo.png" alt="" class="w-[201px]">
             <nav class="flex relative">
                 <a class="text-2xl font-bold text-[#FF0000] pr-8" href="index.html">HOME </a>
