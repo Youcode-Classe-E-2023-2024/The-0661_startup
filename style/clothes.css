@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* description */
+.desc-container{
+    height: 100vh;
+    background-color: #F5ECEC;
+    display: flex;
+    padding: 40px ;
+    /* gap: 80px; */
+    justify-content: space-evenly;
+    border-top:1px solid black ;
+}
+.img-thumb{
+    /* width: 100%; */
+   /* border: 1px solid red; */
+
+}
+.img-thumb img{
+    width: 30rem;
+    
+}
+.text-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.text-desc h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.price{
+    display: flex;
+    gap: 25px;
+}
+.price h4{
+    color: #FF0000;
+    font-size: 20px;
+    
+}
+.price h5{
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.text-desc p{
+    color: #838383;
+    font-size: 18px;
+
+}
+.btn-nmbr{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.btn-rg{
+    background-color: #B62323;
+    color: #fff;
+    width: 40px;
+}
+.btn-grs{
+    background-color:#838383 ;
+    color: #B62323;
+    width: 170px;
+    height: 40px;
+    
+    
+}
+.text-desc a{
+    color: #838383;
+    font-size: 22px;
+}
+.description{
+    background-color: #D9D9D9;
+    height: 70vh;
+    text-align: center;
+    padding: 10px 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    border-top:1px solid black ;
+    border-bottom:1px solid black ;
+
+}
+.description h1{
+    color: #B62323;
+    font-size: 30px;
+}
+.description p{
+    color: #202020;
+    font-size: 20px;
+}
+.autre-container{
+    height: 90vh;
+    background-color: #F5ECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.autre-container h1{
+    text-align: center;
+    font-size: 26px;
+}
+.autre{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 40px;
+    /* border: 1px solid red; */
+}
+.autre-thumb{
+    width: 15rem;
+}
+.autre p{
+    color: #202020;
+    font-size: 12px;
+}
+.autres{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
