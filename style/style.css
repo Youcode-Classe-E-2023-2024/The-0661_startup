@@ -1,5 +1,19 @@
 .conter{
-    width: 100%;
+    width: 35%;
     display: flex;
     justify-content: center;
+    margin-left: 100px;
+    align-items: center;
+    padding: 10px;
+}
+
+.conter h2{
+    text-shadow: 2px 2px #ff0066;
+}
+.conter2 h1{
+    color: #ff0066;
+    text-shadow: -0.5px -0.5px #000000;
+
+
+
 }
