@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+
 /* description */
+
 .desc-container{
     height: 100vh;
     background-color: #F5ECEC;
@@ -12,14 +14,8 @@
     justify-content: space-evenly;
     border-top:1px solid black ;
 }
-.img-thumb{
-    /* width: 100%; */
-   /* border: 1px solid red; */
-
-}
 .img-thumb img{
     width: 30rem;
-    
 }
 .text-desc{
     display: flex;
@@ -55,9 +51,7 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    
 }
-
 .btn-rg{
     background-color: #B62323;
     color: #fff;
@@ -68,8 +62,6 @@
     color: #B62323;
     width: 170px;
     height: 40px;
-    
-    
 }
 .text-desc a{
     color: #838383;
@@ -86,7 +78,6 @@
     justify-content: center;
     border-top:1px solid black ;
     border-bottom:1px solid black ;
-
 }
 .description h1{
     color: #B62323;
@@ -134,16 +125,12 @@
    height: 40vh;
    display: flex;
    justify-content: center;
-   
-   
 }
 .tout{
     display: flex;
    justify-content: center;
    gap: 70px;
    text-align: center;
-   /* padding-top: 70px; */
-
 }
 .waa{
     display: flex;
@@ -160,3 +147,106 @@
 .waa h3{
     font-weight: 500;
 }
+/*end description */
+
+/* Start clothesW */
+.pic-back{
+    background-image: url("/pictures/photo/young-woman.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 18%;
+    text-align: center;
+}
+.txt-pic-back{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* padding-right: 15rem; */
+}
+.txt-pic-back h3{
+    color: #fff;
+    font-size: 30px;
+}
+.txt-pic-back h6{
+    font-size: 16px;
+}
+.txt-pic-back button{
+    background-color: #B62323;
+    width: 9rem;
+    height: 45px;
+    border-radius: 25px;
+    color: #fff;
+}
+.clothes-container{
+    height: 290vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-color: #F5ECEC;
+    padding: 50px;
+}
+.clothes-container h1{
+    font-size: 30px;
+    
+}
+.caract{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    color: #838383;
+}
+.clothes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.pagination{
+    color: #000;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    text-align: center;
+    
+}
+/* .Previous a::placeholder{
+    color: #202020;
+    font-weight: bolder;
+
+} */
+
+.btn-rouge{
+    background-color: #FF0000;
+    width: 40px;
+    height: 38px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.btn-gris{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 38px;
+}
+.Previous{
+    color: #545454;
+    text-decoration: line-through;
+    width: 85px;
+    height: 38px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.Previous a.button::placeholder{
+    color: #661313;
+}
+.z-z{
+    height: 10vh ;
+    background-color: #F5ECEC;
+}
+/* end clothesW */
