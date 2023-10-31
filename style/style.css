@@ -12,8 +12,29 @@
 }
 .conter2 h1{
     color: #ff0066;
-    text-shadow: -0.5px -0.5px #000000;
+    text-shadow: 1px 1px #000000;
+}
+.conter2 h2{
+    color: #3E3B3B;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
 
+}
+.conter2 h3{
+    color: rgba(0, 0, 0, 0.95);
+    text-align: center;
+    font-family: Abel;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px #000000;
 
-
+}
+h3 li{
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: Abel;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px #0000004b;
 }
