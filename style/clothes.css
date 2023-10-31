@@ -97,7 +97,7 @@
     font-size: 20px;
 }
 .autre-container{
-    height: 110vh;
+    height: 170vh;
     background-color: #F5ECEC;
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@
 }
 .mini-footer{
     background-color: #fff;
-   height: 35vh;
+   height: 40vh;
    display: flex;
    justify-content: center;
    
@@ -140,16 +140,23 @@
 .tout{
     display: flex;
    justify-content: center;
-   gap: 40px;
+   gap: 70px;
    text-align: center;
-   padding-top: 70px;
+   /* padding-top: 70px; */
 
 }
 .waa{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-.waa img{
-    width: 20px;
+.waa-thumb{
+    width: 25px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.waa h3{
+    font-weight: 500;
 }
