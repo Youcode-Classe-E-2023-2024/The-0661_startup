@@ -1,4 +1,21 @@
-    function generateNavbar() {
+var navbar = document.getElementById('navbar');
+
+function tablet(){
+    return `
+    <div class="backdrop-blur-lg fixed top-0">
+    <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
+    <div id="mobileNav" class="text-white flex flex-col text-3xl hidden">
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            </div>
+            </div>
+            `
+        }
+        
+        
+        function desktop() {
         return (
             `
             <div class="bg-[#D9D9D990] backdrop-blur z-[99] fixed top-0 w-full flex justify-between items-center py-4 px-8">
@@ -10,7 +27,7 @@
                     <div id="sex" class="absolute flex flex-col text-white bg-black hidden  ">
                         <a href="clothes.html" class="px-4">Man</a> <br>
                         <a href="clothes.html" class="bg-red-400 py-1 px-4">Woman</a>
-                    </div>
+                        </div>
                 </div>
                 <div id="eq" class="">
                     <a class="text-2xl pr-8 font-bold" href="#" >EQUIPMENT</a>
@@ -21,19 +38,35 @@
                 </div>
                 <a class="text-2xl pr-8 font-bold" href="nutrition.html">NUTRITION </a>
                 <a class="text-2xl pr-8 font-bold" href="coatching.html">COATCHING </a>
-            </nav>
+                </nav>
             <div>
-                <a href="">ico</a>
-                <a href="">ico</a>
-                <a href="">ico</a>
+            <a href="">ico</a>
+            <a href="">ico</a>
+            <a href="">ico</a>
             </div>
         </div>`
         )
     }
     
+    navbar.innerHTML = window.innerWidth > 920 ? desktop() : tablet()
+    window.addEventListener("resize",function(){
+        navbar.innerHTML = window.innerWidth > 920 ? desktop() : tablet()
+    })
+    let i = 0;
     
-        const navbar = document.getElementById('navbar');
-        navbar.innerHTML = generateNavbar();
+    const burger = document.getElementById("burger")
+    if(burger){
+        burger.addEventListener("click", function(){
+            if(i === 0){
+                i = 1;
+                document.getElementById("mobileNav").style.display="flex"
+            }
+            else{
+                i = 0;
+                document.getElementById("mobileNav").style.display="none"
+            }
+        })
+    }
     
     
         let e = document.getElementById("clothes")
@@ -54,3 +87,4 @@
     
         toggleSubs(eq, se)
         toggleSubs(e, s)
+
