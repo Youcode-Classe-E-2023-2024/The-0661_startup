@@ -35,15 +35,15 @@ body{
 }
 .cover{
     
-    background-image: url(/pictures/Group35.png);
+    background-image: url(../pictures/Group35.png);
    
 }
 .cover2{
-    background-image: url(/pictures/Group\ 30.png);
+    background-image: url(../pictures/Group30.png);
     
 }
 .cover3{
-    background-image: url(/pictures/Grou35.png);
+    background-image: url(../pictures/Grou35.png);
 }
 /*! ***********************************Section:Header End******************************************/
 
