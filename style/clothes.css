@@ -151,7 +151,7 @@
 
 /* Start clothesW */
 .pic-back{
-    background-image: url("/pictures/photo/young-woman.png");
+    background-image: url("/pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -179,9 +179,16 @@
     height: 45px;
     border-radius: 25px;
     color: #fff;
+    transition: background-color 0.3s ease;
+}
+.txt-pic-back button:hover{
+    background-color: #a34242;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
 .clothes-container{
-    height: 290vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -204,6 +211,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    width: fit-content;
 }
 .pagination{
     color: #000;
@@ -222,12 +230,25 @@
     height: 38px;
     border-radius: 10px;
     border: 2px solid black;
+    transition: background-color 0.3s ease;
 }
+.btn-rouge:hover {
+    background-color: #FF0000;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 .btn-gris{
     border-radius: 10px;
     border: 2px solid black;
     width: 40px;
     height: 38px;
+    transition: background-color 0.3s ease;
+}
+.btn-gris:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .Previous{
     color: #545454;
@@ -236,6 +257,12 @@
     height: 38px;
     border-radius: 10px;
     border: 2px solid black;
+    transition: background-color 0.3s ease;
+}
+.Previous:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .Previous a.button::placeholder{
     color: #661313;
@@ -277,6 +304,118 @@
     height: 45px;
     border-radius: 25px;
     color: #fff;
+}
+
+
+@media  (max-width: 450px){
+    .pic-backM{
+        background-image: url(/pictures/photo/gym\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* padding: 1%; */
+        text-align: center;
+    }
+    .txt-pic-backM{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    
+    }
+    .txt-pic-backM h3{
+        color: #fff;
+        font-size: 10px;
+    }
+    .txt-pic-backM h6{
+        font-size: 7px;
+        color: #fff;
+    }
+    .txt-pic-backM button{
+        background-color: #B62323;
+        width: 5rem;
+        height: 25px;
+        border-radius: 25px;
+        color: #fff;
+    }
+    .clothes-container h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .caract{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    color: #838383;
+}
+.clothes-container{
+    height: fit-content;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 50px;
+    align-items: center;
+    background-color: #F5ECEC;
+    /* padding: 50px; */
+}
+.clothes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: fit-content;
+}
+.autre{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.pagination{
+    color: #000;
+    width: 85%;
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    text-align: center;
+    
+}
+.mini-footer{
+    background-color: #fff;
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+}
+.tout{
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+   text-align: center;
+   
+}
+.waa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.waa-thumb{
+    width: 25px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.waa h3{
+    font-weight: 500;
+    font-size: 12px;
+}
+.waa h6{
+    font-size: 10px;
+}
 }
 /* end clothesM */
 
