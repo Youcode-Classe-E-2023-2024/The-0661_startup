@@ -10,9 +10,9 @@ function tablet(){
     })
 
     return `
-    <div class="backdrop-blur-lg fixed top-0">
+    <div class="bg-black">
     <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
-    <div id="mobileNav" class="text-white flex flex-col text-3xl hidden w-screen">
+    <div id="mobileNav" class="text-white flex flex-col text-3xl hidden w-screen text-center">
             <a class="py-2" href="index.html">HOME</a>
             <a class="py-2" href="clothes.html">CLOTHES</a>
             <a class="py-2" href="">EQUIPEMENT</a>
