@@ -4,11 +4,12 @@ function tablet(){
     return `
     <div class="backdrop-blur-lg fixed top-0">
     <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
-    <div id="mobileNav" class="text-white flex flex-col text-3xl hidden">
-            <a href="#">Home</a>
-            <a href="#">Home</a>
-            <a href="#">Home</a>
-            <a href="#">Home</a>
+    <div id="mobileNav" class="text-white flex flex-col text-3xl hidden w-screen">
+            <a class="py-2" href="index.html">HOME</a>
+            <a class="py-2" href="clothes.html">CLOTHES</a>
+            <a class="py-2" href="">EQUIPEMENT</a>
+            <a class="py-2" href="nutrition.html">NURITION</a>
+            <a class="py-2" href="coatching.html">COACHING</a>
             </div>
             </div>
             `
