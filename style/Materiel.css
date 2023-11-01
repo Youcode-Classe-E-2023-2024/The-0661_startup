@@ -6,6 +6,7 @@
 body{
     background-color: #f6f6f6;
     scroll-behavior:smooth;
+   
 }
 
 
@@ -69,7 +70,8 @@ body{
 .mat{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
     column-gap: 10px;
     width: 100%;
 }
@@ -265,6 +267,10 @@ p{
     
     .minifooter .one,.three{
         display: none;
+    }
+    .matgrid{
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
     }
     
 }
