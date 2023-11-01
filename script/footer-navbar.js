@@ -109,14 +109,14 @@ function tablet(){
                 <div id="clothes" class="">
                     <a class="text-2xl pr-8 font-bold" href="clothes.html" >CLOTHES</a>
                     <div id="sex" class="absolute flex flex-col text-white bg-black hidden">
-                        <a href="clothes.html" class="px-4 pl-8">Man</a> <br>
+                        <a href="clothes.html" class="px-4 pl-8 py-1">Man</a> <br>
                         <a href="clothes.html" class="bg-red-400 py-1 px-8">Woman</a>
                     </div>
                 </div>
                 <div id="eq" class="">
                     <a class="text-2xl pr-8 font-bold" href="#" >EQUIPMENT</a>
                     <div id="se" class="absolute flex flex-col text-white bg-black hidden">
-                        <a href="" class="pl-6">Equipement</a> <br>
+                        <a href="" class="pl-6 py-1">Equipement</a> <br>
                         <a href="accessories.html" class="bg-red-400 py-1 px-8">Accessoir</a>
                     </div>
                 </div>
