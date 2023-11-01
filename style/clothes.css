@@ -6,7 +6,7 @@
 /* description */
 
 .desc-container{
-    height: 100vh;
+    height: fit-content;
     background-color: #F5ECEC;
     display: flex;
     padding: 40px ;
@@ -148,7 +148,93 @@
     font-weight: 500;
 }
 /*end description */
-
+@media  (max-width: 450px){
+    .desc-container{
+        /* height: 130vh; */
+        background-color: #F5ECEC;
+        display: flex;
+        flex-wrap: wrap;
+        border-top:1px solid black ;
+        align-items: center;
+    }
+    .img-thumb img{
+        width: 35rem;
+    }
+    .btn-nmbr{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .btn-rg{
+        background-color: #B62323;
+        color: #fff;
+        width: 30px;
+    }
+    .btn-grs{
+        background-color:#838383 ;
+        color: #B62323;
+        width: 140px;
+        height: 40px;
+    }
+    .text-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        /* border: 1px solid red; */
+        /* align-items: center; */
+    }
+    .text-desc h1 {
+        font-size: 23px;
+        font-weight: bolder;
+        /* align-self: center; */
+    }
+    .description{
+        background-color: #D9D9D9;
+        height:35vh;
+        text-align: center;
+        padding: 10px ;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        border-top:1px solid black ;
+        border-bottom:1px solid black ;
+    }
+    .description p{
+        font-size: 15px;
+    }
+    
+    .autre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 40px;
+    /* border: 1px solid red; */
+}
+.autre-thumb{
+     align-self: center;
+     width: 18rem;
+}
+    .autres{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        padding: 40px;
+    }
+    .autre-container{
+        height:300vh;
+        background-color: #F5ECEC;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    
+}
 /* Start clothesW */
 .pic-back{
     background-image: url("/pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
@@ -321,7 +407,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        padding: 0%;
+        /* padding: 0%; */
         text-align: center;
     }
     .txt-pic-backM{
@@ -341,6 +427,28 @@
         color: #fff;
     }
     .txt-pic-backM button{
+        background-color: #B62323;
+        width: 5rem;
+        height: 25px;
+        border-radius: 25px;
+        color: #fff;
+    }
+    .txt-pic-back{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .txt-pic-back h3{
+        color: #fff;
+        font-size: 10px;
+    }
+    .txt-pic-back h6{
+        font-size: 7px;
+        color: #fff;
+    }
+    .txt-pic-back button{
         background-color: #B62323;
         width: 5rem;
         height: 25px;
