@@ -15,7 +15,7 @@ function tablet(){
     <div id="mobileNav" class="text-white flex flex-col text-3xl hidden w-screen text-center">
             <a class="py-2" href="index.html">HOME</a>
             <a class="py-2" href="clothes.html">CLOTHES</a>
-            <a class="py-2" href="">EQUIPEMENT</a>
+            <a class="py-2" href="accessories.html">accessories</a>
             <a class="py-2" href="nutrition.html">NURITION</a>
             <a class="py-2" href="coatching.html">COACHING</a>
             </div>
@@ -30,7 +30,7 @@ function tablet(){
             <div class="bg-[#D9D9D990] backdrop-blur z-[99] fixed top-0 w-full flex justify-between items-center py-4 px-8">
             <img src="pictures/logo.png" alt="" class="w-[201px]">
             <nav class="flex relative">
-                <a class="text-2xl font-bold text-[#FF0000] pr-8" href="index.html">HOME </a>
+                <a class="text-2xl font-bold pr-8" href="index.html">HOME </a>
                 <div id="clothes" class="">
                     <a class="text-2xl pr-8 font-bold" href="clothes.html" >CLOTHES</a>
                     <div id="sex" class="absolute flex flex-col text-white bg-black hidden  ">
