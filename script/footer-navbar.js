@@ -8,7 +8,6 @@ function tablet(){
             ele.style.display = "none"
             right[key].style.display = "none"
     })
-
     return `
     <div class="bg-black">
     <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
