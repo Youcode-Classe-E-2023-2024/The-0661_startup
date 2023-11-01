@@ -215,11 +215,6 @@
     text-align: center;
     
 }
-/* .Previous a::placeholder{
-    color: #202020;
-    font-weight: bolder;
-
-} */
 
 .btn-rouge{
     background-color: #FF0000;
@@ -250,6 +245,8 @@
     background-color: #F5ECEC;
 }
 /* end clothesW */
+
+/* start clothesM */
 .pic-backM{
     background-image: url("/pictures/photo/gym\ 1.png");
     background-size: cover;
@@ -281,3 +278,9 @@
     border-radius: 25px;
     color: #fff;
 }
+/* end clothesM */
+
+
+/* start clothesM2 */
+
+/* end clothesM2 */
