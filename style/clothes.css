@@ -316,6 +316,14 @@
         /* padding: 1%; */
         text-align: center;
     }
+    .pic-back{
+        background-image: url("/pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 0%;
+        text-align: center;
+    }
     .txt-pic-backM{
         width: 50%;
         display: flex;
