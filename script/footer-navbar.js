@@ -1,6 +1,14 @@
 var navbar = document.getElementById('navbar');
 
 function tablet(){
+    let g = document.querySelectorAll(".goto")
+    let right = document.querySelectorAll(".right")
+
+    g.forEach((ele, key) =>{
+            ele.style.display = "none"
+            right[key].style.display = "none"
+    })
+
     return `
     <div class="backdrop-blur-lg fixed top-0">
     <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
