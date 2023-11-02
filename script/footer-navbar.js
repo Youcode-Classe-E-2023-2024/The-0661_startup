@@ -91,10 +91,14 @@ function tablet(){
         <a class="py-2" href="index.html">HOME</a>
         <a id="mobileClothes" class="py-2" href="clothes.html">CLOTHES</a>
         <div id="matSubmenu" class="flex flex-col text-2xl p-0">
-            <a href="clothes.html" class="">-Man-</a>
-            <a href="clothes.html" class="">-Woman-</a>
+            <a href="clothesM.html" class="">-Man-</a>
+            <a href="clothesW.html" class="">-Woman-</a>
         </div>
-        <a id="mobileMaterial" class="py-2" href="Materiel1.html">MATERIAL</a>
+        <a id="mobileMaterial" class="py-2" href="Materiel1.html">EQUIPEMENT</a>
+        <div id="matSubmenu" class="flex flex-col text-2xl p-0">
+            <a href="Materiel1.html" class="">-Material-</a>
+            <a href="accessories.html" class="">-Accessories-</a>
+        </div>
         <a class="py-2" href="accessories.html">ACCESSOIRES</a>
         <a class="py-2" href="nutrition.html">NURITION</a>
         <a class="py-2" href="coatching.html">COACHING</a>
@@ -114,15 +118,15 @@ function tablet(){
                 <div id="clothes" class="">
                     <a class="text-2xl pr-8 font-bold" href="clothes.html" >CLOTHES</a>
                     <div id="sex" class="absolute flex flex-col text-white bg-black hidden">
-                        <a href="clothes.html" class="px-4 pl-8 py-1">Man</a> <br>
-                        <a href="clothes.html" class="bg-red-400 py-1 px-8">Woman</a>
+                        <a href="clothesM.html" class="px-4 pl-8 py-1">Man</a> <br>
+                        <a href="clothesW.html" class="bg-red-400 py-1 px-8">Woman</a>
                     </div>
                 </div>
                 <div id="eq" class="">
                     <a class="text-2xl pr-8 font-bold" href="#" >EQUIPMENT</a>
                     <div id="se" class="absolute flex flex-col text-white bg-black hidden ">
-                        <a href="" class="pl-6 py-1">Equipement</a> <br>
-                        <a href="accessories.html" class="bg-red-400 py-1 px-8">Accessoir</a>
+                        <a href="Materiel1.html" class="pl-6 py-1">Material</a> <br>
+                        <a href="accessories.html" class="bg-red-400 py-1 px-8">Accessories</a>
                     </div>
                 </div>
                 <a class="text-2xl pr-8 font-bold" href="nutrition.html">NUTRITION </a>
