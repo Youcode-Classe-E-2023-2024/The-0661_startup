@@ -1,4 +1,5 @@
-
+<div align="center">
+  
 # The 0661 Startup
 
 
@@ -50,3 +51,5 @@ If you want to credit individuals, projects, or resources that inspired or helpe
 
 ## Contact 
 #### for any question do not hesitate to contact anyone of our team members
+
+</div>
