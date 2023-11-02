@@ -1,0 +1,541 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* description */
+
+.desc-container{
+    height: fit-content;
+    background-color: #F5ECEC;
+    display: flex;
+    padding: 40px ;
+    /* gap: 80px; */
+    justify-content: space-evenly;
+    border-top:1px solid black ;
+}
+.img-thumb img{
+    width: 30rem;
+}
+.text-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.text-desc h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.price{
+    display: flex;
+    gap: 25px;
+}
+.price h4{
+    color: #FF0000;
+    font-size: 20px;
+    
+}
+.price h5{
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.text-desc p{
+    color: #838383;
+    font-size: 18px;
+
+}
+.btn-nmbr{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.btn-rg{
+    background-color: #B62323;
+    color: #fff;
+    width: 40px;
+}
+.btn-grs{
+    background-color:#838383 ;
+    color: #B62323;
+    width: 170px;
+    height: 40px;
+}
+.text-desc a{
+    color: #838383;
+    font-size: 22px;
+}
+.description{
+    background-color: #D9D9D9;
+    height: 70vh;
+    text-align: center;
+    padding: 10px 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    border-top:1px solid black ;
+    border-bottom:1px solid black ;
+}
+.description h1{
+    color: #B62323;
+    font-size: 30px;
+}
+.description p{
+    color: #202020;
+    font-size: 20px;
+}
+.autre-container{
+    height: 170vh;
+    background-color: #F5ECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.autre-container h1{
+    text-align: center;
+    font-size: 26px;
+}
+.autre{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 40px;
+    /* border: 1px solid red; */
+}
+.autre-thumb{
+    width: 15rem;
+}
+.autre p{
+    color: #202020;
+    font-size: 12px;
+}
+.autres{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.mini-footer{
+    background-color: #fff;
+   height: 40vh;
+   display: flex;
+   justify-content: center;
+}
+.tout{
+    display: flex;
+   justify-content: center;
+   gap: 70px;
+   text-align: center;
+}
+.waa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.waa-thumb{
+    width: 25px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.waa h3{
+    font-weight: 500;
+}
+/*end description */
+@media  (max-width: 450px){
+    .desc-container{
+        /* height: 130vh; */
+        background-color: #F5ECEC;
+        display: flex;
+        flex-wrap: wrap;
+        border-top:1px solid black ;
+        align-items: center;
+    }
+    .img-thumb img{
+        width: 35rem;
+    }
+    .btn-nmbr{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .btn-rg{
+        background-color: #B62323;
+        color: #fff;
+        width: 30px;
+    }
+    .btn-grs{
+        background-color:#838383 ;
+        color: #B62323;
+        width: 140px;
+        height: 40px;
+    }
+    .text-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        /* border: 1px solid red; */
+        /* align-items: center; */
+    }
+    .text-desc h1 {
+        font-size: 23px;
+        font-weight: bolder;
+        /* align-self: center; */
+    }
+    .description{
+        background-color: #D9D9D9;
+        height:35vh;
+        text-align: center;
+        padding: 10px ;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        border-top:1px solid black ;
+        border-bottom:1px solid black ;
+    }
+    .description p{
+        font-size: 15px;
+    }
+    
+    .autre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 40px;
+    /* border: 1px solid red; */
+}
+.autre-thumb{
+     align-self: center;
+     width: 18rem;
+}
+    .autres{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        padding: 40px;
+    }
+    .autre-container{
+        height:300vh;
+        background-color: #F5ECEC;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    
+}
+/* Start clothesW */
+.pic-back{
+    background-image: url("/pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 18%;
+    text-align: center;
+}
+.txt-pic-back{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* padding-right: 15rem; */
+}
+.txt-pic-back h3{
+    color: #fff;
+    font-size: 30px;
+}
+.txt-pic-back h6{
+    font-size: 16px;
+}
+.txt-pic-back button{
+    background-color: #B62323;
+    width: 9rem;
+    height: 45px;
+    border-radius: 25px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.txt-pic-back button:hover{
+    background-color: #a34242;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.clothes-container{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-color: #F5ECEC;
+    padding: 50px;
+}
+.clothes-container h1{
+    font-size: 30px;
+    
+}
+.caract{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    color: #838383;
+}
+.clothes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: fit-content;
+}
+.pagination{
+    color: #000;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.btn-rouge{
+    background-color: #FF0000;
+    width: 40px;
+    height: 38px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+}
+.btn-rouge:hover {
+    background-color: #FF0000;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-gris{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 40px;
+    height: 38px;
+    transition: background-color 0.3s ease;
+}
+.btn-gris:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.Previous{
+    color: #545454;
+    text-decoration: line-through;
+    width: 85px;
+    height: 38px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+}
+.Previous:hover {
+    background-color: transparent;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.Previous a.button::placeholder{
+    color: #661313;
+}
+.z-z{
+    height: 10vh ;
+    background-color: #F5ECEC;
+}
+/* end clothesW */
+
+/* start clothesM */
+.pic-backM{
+    background-image: url("/pictures/photo/gym\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 19%;
+    text-align: center;
+}
+.txt-pic-backM{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    /* padding-right: 15rem; */
+}
+.txt-pic-backM h3{
+    color: #fff;
+    font-size: 30px;
+}
+.txt-pic-backM h6{
+    font-size: 16px;
+    color: #fff;
+}
+.txt-pic-backM button{
+    background-color: #B62323;
+    width: 9rem;
+    height: 45px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+
+@media  (max-width: 450px){
+    .pic-backM{
+        background-image: url(/pictures/photo/gym\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* padding: 1%; */
+        text-align: center;
+    }
+    .pic-back{
+        background-image: url("/pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* padding: 0%; */
+        text-align: center;
+    }
+    .txt-pic-backM{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    
+    }
+    .txt-pic-backM h3{
+        color: #fff;
+        font-size: 10px;
+    }
+    .txt-pic-backM h6{
+        font-size: 7px;
+        color: #fff;
+    }
+    .txt-pic-backM button{
+        background-color: #B62323;
+        width: 5rem;
+        height: 25px;
+        border-radius: 25px;
+        color: #fff;
+    }
+    .txt-pic-back{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .txt-pic-back h3{
+        color: #fff;
+        font-size: 10px;
+    }
+    .txt-pic-back h6{
+        font-size: 7px;
+        color: #fff;
+    }
+    .txt-pic-back button{
+        background-color: #B62323;
+        width: 5rem;
+        height: 25px;
+        border-radius: 25px;
+        color: #fff;
+    }
+    .clothes-container h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .caract{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    color: #838383;
+}
+.clothes-container{
+    height: fit-content;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 50px;
+    align-items: center;
+    background-color: #F5ECEC;
+    /* padding: 50px; */
+}
+.clothes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: fit-content;
+}
+.autre{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.pagination{
+    color: #000;
+    width: 85%;
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    text-align: center;
+    
+}
+.mini-footer{
+    background-color: #fff;
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+}
+.tout{
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+   text-align: center;
+   
+}
+.waa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.waa-thumb{
+    width: 25px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.waa h3{
+    font-weight: 500;
+    font-size: 12px;
+}
+.waa h6{
+    font-size: 10px;
+}
+}
+/* end clothesM */
+
+
+/* start clothesM2 */
+
+/* end clothesM2 */
