@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container1{
+    width: 600px;
+    height: 700px;
+}
+
+.container2{
+    width: 500px;
+    height: 700px;
+}
+.flex{
+    margin-bottom: 20px;
+}
+
+.baker{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    height: fit-content;
+    background-image: url(/pictures/panierbg.png);
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+
+@media (max-width:1134px) {
+
+    .flexxx{
+        flex-direction: column;
+        width: 100vw;
+
+    }
+
+    .flexxx .container1{
+        width: 80%;
+        height: 30%;
+        margin: auto;
+    }
+    .flexxx .container2{
+        width: 80%;
+        height: 30%;
+        margin: auto;
+    }
+}

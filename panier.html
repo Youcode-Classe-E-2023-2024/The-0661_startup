@@ -1,122 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- this is the link to tailwind framework -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- this is the path to the css file -->
-    <link rel="stylesheet" href="style/style.css">
-    <title>YOUGYM</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- this is the navbar section -->
+  <!-- this is the link to tailwind framework -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/25ff1b0eed.js" crossorigin="anonymous"></script>
+  <!-- this is the path to the css file -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/panier.css">
+  <title>YOUGYM</title>
+</head>
 
+<body>
 
-    <nav id="navbar">
-    </nav>
+  <!-- this is the navbar section -->
 
-
-    <!--the end navbar section -->
-
-    <!-- this is the header section -->
+  <nav id="navbar">
+  </nav>
 
 
-    <header>
-    </header>
 
 
-    <!-- the end of header section -->
+  <!--the end navbar section -->
 
-    <!-- this is the main section -->
-
-
-    <main class="mt-8">
-      <section>
-        <img src="pictures/panier/empty.png" alt="">
-      </section>
-    </main>
+  <!-- this is the header section -->
 
 
-    <!-- the end of main section -->
-
-    <!-- this is the footer section -->
 
 
-    <div class="flex bg-slate-800 justify-between px-10 py-10 h-60">
 
-        <div class="flex">
-          <img src="pictures/mail-icon.png" class="h-16 mr-6">
-          <div class="text-white">
-            <h1 class="font-bold text-3xl">CONTACT</h1>
-            <p class="underline">contact@ygym.com</p>
-            <p class="underline">(212) 239 -8685</p>
-          </div>
+  <!-- the end of header section -->
+
+  <!-- this is the main section -->
+
+
+  <main class="baker  bg-black w-[100vw] h-[150vh]">
+    <section class="w-[100vw] flex my-[30px] justify-center absolute top-16 items-center  h-[100vh]">
+
+      <div class="flexxx absolute flex h-fit gap-6">
+        <div class="container1 py-[10px] flex flex-col justify-evenly items-center py-30%  rounded-3xl bg-white">
+          <img src="pictures/pngkey 1.png" class="w-1/2 " alt="">
+          <h1 class="font-bold text-[20px]">Your bag is emty</h1>
+          <h1 class="text-[20px]">Have an account? Sign in to see your items.</h1>
+          <a href="" class="py-[15px] bg-black text-white rounded-xl px-[40px]">Shop now</a>
         </div>
-    
-        <div class="flex">
-          <img src="pictures/clock-icon.png" class="h-16 mr-6">
-          <div class="text-white">
-            <h1 class="font-bold text-3xl">OPEN HOURS</h1>
-            <p class="">MONDAY - FRIDAY 7:00AM - 10:00PM</p>
-            <p class="">SATURDAY 7:00AM - 10:00PM</p>
-            <p>SUNDAY 7:00AM - 10:00PM</p>
-          </div>
-        </div>
-    
-        <div class="flex">
-          <img src="pictures/location-icon.png" class="h-16 mr-6">
-          <div class="text-white">
-            <h1 class="font-bold text-3xl">LOCATION</h1>
-            <p class="">6736 S SHERBOURNE DR LOS ANGELES, 90056</p>
+
+
+        <div class="container2 flex flex-col justify-evenly items-center rounded-3xl bg-white">
+          <h1 class="font-bold text-[30px] text-center flex items-center justify-center h-[50%]">Choose Payment <br> option</h1>
+          <div class="inputs  w-[100%] flex flex-col justify-evenly items-center h-full">
+            <a href="" class="flex justify-between py-6 px-3 bg-slate-300 rounded-lg w-[90%]">
+              <p>Debit / Credit card</p>
+              <i class="fa-solid fa-credit-card fa-2xl"></i>
+            </a>
+            <a href="" class="flex justify-between py-6 px-3 bg-slate-300 rounded-lg w-[90%]">
+              <p>Internet Banking</p>
+              <i class="fa-solid fa-building-columns fa-2xl"></i>
+            </a>
+            <a href="" class="flex justify-between py-6 px-3 items-center  bg-slate-300 rounded-lg w-[90%]">
+              <i class="fa-brands fa-google-pay fa-2xl"></i>
+              <img src="pictures/panier.png" class="w-[25px] h-[20px]" alt="">
+            </a>
+            <a href="" class="flex justify-center items-center py-6 px-3 bg-slate-300 rounded-lg w-[90%]">
+              <p>+ Add another option</p>
+            </a>
           </div>
         </div>
       </div>
-    
-    
-      <div class="flex bg-slate-100 h-64 justify-between items-center p-10">
-        
-        <div class="w-80 flex flex-col justify-between h-full">
-          <div>
-            <h1 class="font-bold text-3xl">Get ready to move</h1>
-            <p>Sales, launches, and more that will motivate and move you</p>
-          </div>
-          <div class="flex w-fit">
-            <input type="email" placeholder="Enter your email" class="bg-slate-100 focus:outline-none placeholder:text-slate-500 text-xl">
-            <img src="pictures/small-mail.png" class="h-10">
-          </div>
-        </div>
-    
-        <div class="w-[550px] flex flex-col justify-between h-full">
-          <img src="pictures/logo.png" class="w-72 self-center">
-          <div class="underline flex justify-between">
-            <a href=""><p class="">HOME</p></a> 
-            <a href=""><p class="">CLOTHES</p></a> 
-            <a href=""><p class="">NUTRITION</p></a> 
-            <a href=""><p class="">EQUIPMENT</p></a> 
-            <a href=""><p class="">COATCHING</p></a> 
-          </div>
-        </div>
-    
-          <div class="items-be flex flex-col justify-between h-full">
-            <img src="pictures/twitter.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-            <img src="pictures/facebook.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-            <img src="pictures/youtube.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-            <img src="pictures/linkdin.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-          </div>      
-        </div>
-    
-        <div class="flex justify-center bg-slate-100">
-          <p class="border-black border-t w-[95%] text-center py-4">Â© 2023 Y-GYM Fitness</p>
-        </div>
-    
-      </div>
+    </section>
+  </main>
 
 
-    <!-- the end of footer section -->
+  <!-- the end of main section -->
 
-    <script src="script/footer-navbar.js"></script>
-  </body>
+  <!-- this is the footer section -->
+
+
+
+  <!-- the end of footer section -->
+
+  <script src="script/footer-navbar.js"></script>
+</body>
+
 </html>
