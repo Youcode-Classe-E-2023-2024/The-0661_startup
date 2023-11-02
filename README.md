@@ -2,7 +2,7 @@
 # The 0661 Startup
 
 
-  ![](pictures/readme.gif)
+  ![](pictures/readme.gif) <br>
   ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Replace with your preferred license badge --> [![GitHub stars](https://img.shields.io/github/stars/Youcode-Classe-E-2023-2024/The-0661_startup)](https://github.com/Youcode-Classe-E-2023-2024/The-0661_startup/stargazers) 
