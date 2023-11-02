@@ -4,7 +4,8 @@
 
 
   ![](pictures/readme.gif) <br>
-  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
+  ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub stars](https://img.shields.io/github/stars/Youcode-Classe-E-2023-2024/The-0661_startup)](https://github.com/Youcode-Classe-E-2023-2024/The-0661_startup/stargazers) 
 
