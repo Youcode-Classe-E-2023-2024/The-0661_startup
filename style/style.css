@@ -81,3 +81,7 @@ h3 li{
     }
     
 }
+body {
+    overflow-x: hidden;
+}
+
