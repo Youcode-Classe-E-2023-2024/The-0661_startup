@@ -6,6 +6,10 @@
   ![](pictures/readme.gif) <br>
   [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
   ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+  ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+  ![]([![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com))
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub stars](https://img.shields.io/github/stars/Youcode-Classe-E-2023-2024/The-0661_startup)](https://github.com/Youcode-Classe-E-2023-2024/The-0661_startup/stargazers) 
 
