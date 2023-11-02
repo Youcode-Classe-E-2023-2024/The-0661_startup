@@ -11,13 +11,10 @@
 ## Table of Contents
 
 -   [Pages](#pages)
--   [Getting Started](#getting-started)
--   [Usage](#usage)
--   [Demo](#demo)
+-   [Installation](#installation)
 -   [Contributing](#contributing)
--   [License](#license)
--   [Acknowledgments](https://chat.openai.com/c/a640e44c-3e39-483a-94f2-639b3968d32c#acknowledgments)
-
+-   [Acknowledgments](#acknowledgments)
+-   [Contact](#contact)
 ## Pages
 
 List the key features and functionalities of your project. This can be a bulleted list or a table:
@@ -36,10 +33,6 @@ List the key features and functionalities of your project. This can be a bullete
 - JAVASCRIPT
 
 ##  Installation
-
-A step-by-step guide on how to install your project.
-
-markdownCopy code
 
 ``Example:
 1. Clone the repository: `git clone https://github.com/Youcode-Classe-E-2023-2024/The-0661_startup.git`
