@@ -36,7 +36,6 @@ List the key features and functionalities of your project. This can be a bullete
 
 ##  Installation
 
-``Example:
 1. Clone the repository: `git clone https://github.com/Youcode-Classe-E-2023-2024/The-0661_startup.git`
 2. Change directory: `cd The-0661_startup`
 3. use the code editor of your choice
