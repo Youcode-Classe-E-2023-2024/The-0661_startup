@@ -1,119 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- this is the link to tailwind framework -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- this is the path to the css file -->
-    <link rel="stylesheet" href="style/style.css">
-    <title>YOUGYM</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- this is the navbar section -->
+  <!-- this is the link to tailwind framework -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- this is the path to the css file -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/login.css">
+  <script src="https://kit.fontawesome.com/25ff1b0eed.js" crossorigin="anonymous"></script>
+  <title>YOUGYM</title>
+</head>
 
+<body>
 
-    <nav id="navbar">
-    </nav>
-
-
-    <!--the end navbar section -->
-
-    <!-- this is the header section -->
+  <!-- this is the navbar section -->
 
 
-    <header>
-    </header>
 
 
-    <!-- the end of header section -->
+  <!--the end navbar section -->
 
-    <!-- this is the main section -->
-
-
-    <main>
-    </main>
+  <!-- this is the header section -->
 
 
-    <!-- the end of main section -->
+  <header>
 
-    <!-- this is the footer section -->
+  </header>
 
 
-    <div class="flex bg-slate-800 justify-between px-10 py-10 h-60">
+  <!-- the end of header section -->
 
-        <div class="flex">
-          <img src="pictures/mail-icon.png" class="h-16 mr-6">
-          <div class="text-white">
-            <h1 class="font-bold text-3xl">CONTACT</h1>
-            <p class="underline">contact@ygym.com</p>
-            <p class="underline">(212) 239 -8685</p>
-          </div>
+  <!-- this is the main section -->
+
+
+  <main class="h-[100vh] w-[100vw] bg-url('pictures/Login')">
+    <img src="pictures/Login.png" class="w-full h-full" alt="">
+    <div
+      class="w-[1000px] h-[600px] flex justify-between rounded-[60px] absolute left-[5%] top-[20%] overflow-hidden bg-white  z-2">
+      <div class="signin py-[5%] flex flex-col justify-evenly items-center w-[50%]">
+        <h1 class="font-bold text-[40px] pb-7">SIGN IN</h1>
+        <div class="icons flex w-[60%] justify-evenly">
+          <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+          <i class="fa-brands fa-square-facebook fa-2xl"></i>
+          <i class="fa-brands fa-linkedin fa-2xl"></i>
+          <i class="fa-brands fa-youtube fa-2xl"></i>
         </div>
-    
-        <div class="flex">
-          <img src="pictures/clock-icon.png" class="h-16 mr-6">
-          <div class="text-white">
-            <h1 class="font-bold text-3xl">OPEN HOURS</h1>
-            <p class="">MONDAY - FRIDAY 7:00AM - 10:00PM</p>
-            <p class="">SATURDAY 7:00AM - 10:00PM</p>
-            <p>SUNDAY 7:00AM - 10:00PM</p>
-          </div>
-        </div>
-    
-        <div class="flex">
-          <img src="pictures/location-icon.png" class="h-16 mr-6">
-          <div class="text-white">
-            <h1 class="font-bold text-3xl">LOCATION</h1>
-            <p class="">6736 S SHERBOURNE DR LOS ANGELES, 90056</p>
-          </div>
-        </div>
+
+        <p class="font-medium">or use your Email and Password</p>
+        <input type="email" placeholder="Email" class="border-b-2 w-[70%] outline-none">
+        <input type="password" placeholder="Password" class="border-b-2 w-[70%] outline-none">
+        <p class="font-bold">Dont have an accont yet ?</p>
+        <a href="" class="font-bold bg-yellow-500 px-16 py-3 rounded-[30px]">Sign In</a>
       </div>
-    
-    
-      <div class="flex bg-slate-100 h-64 justify-between items-center p-10">
+
+      <div class="loger absolute py-36 h-[600px] w-[70%]  flex justify-evenly  bg-yellow-400">
         
-        <div class="w-80 flex flex-col justify-between h-full">
-          <div>
-            <h1 class="font-bold text-3xl">Get ready to move</h1>
-            <p>Sales, launches, and more that will motivate and move you</p>
-          </div>
-          <div class="flex w-fit">
-            <input type="email" placeholder="Enter your email" class="bg-slate-100 focus:outline-none placeholder:text-slate-500 text-xl">
-            <img src="pictures/small-mail.png" class="h-10">
-          </div>
+        <div class="cont absolute  flex flex-col justify-evenly items-center">
+          <h1 class="font-bold mb-5 text-[45px]">welcome, friend !</h1>
+          <p class="text-white mb-5 font-bold text-center text-[20px] w-fit">Register with your personel details to <br>
+            use all of site features</p>
+          <a href="" class="font-bold  bg-transparent border-[2px] border-white px-16 py-3 rounded-[30px]">Sign Up</a>
         </div>
-    
-        <div class="w-[550px] flex flex-col justify-between h-full">
-          <img src="pictures/logo.png" class="w-72 self-center">
-          <div class="underline flex justify-between">
-            <a href=""><p class="">HOME</p></a> 
-            <a href=""><p class="">CLOTHES</p></a> 
-            <a href=""><p class="">NUTRITION</p></a> 
-            <a href=""><p class="">EQUIPMENT</p></a> 
-            <a href=""><p class="">COATCHING</p></a> 
-          </div>
-        </div>
-    
-          <div class="items-be flex flex-col justify-between h-full">
-            <img src="pictures/twitter.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-            <img src="pictures/facebook.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-            <img src="pictures/youtube.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-            <img src="pictures/linkdin.png" class="h-10 shadow-md rounded-[7px] hover:scale-110 transition-all cursor-pointer">
-          </div>      
-        </div>
-    
-        <div class="flex justify-center bg-slate-100">
-          <p class="border-black border-t w-[95%] text-center py-4">Â© 2023 Y-GYM Fitness</p>
-        </div>
-    
+      
       </div>
+      <div class="signin py-[5%] flex flex-col justify-evenly items-center w-[50%]">
+        <h1 class="font-bold text-[40px] pb-7">CREATE ACCOUNT</h1>
+        <div class="icons flex w-[60%] justify-evenly">
+          <i class="fa-brands fa-square-x-twitter fa-2xl"></i>
+          <i class="fa-brands fa-square-facebook fa-2xl"></i>
+          <i class="fa-brands fa-linkedin fa-2xl"></i>
+          <i class="fa-brands fa-youtube fa-2xl"></i>
+        </div>
+
+        <p class="font-medium">or use your Email and Password</p>
+        <input type="text" placeholder="UserName" class="border-b-2 w-[70%] outline-none">
+        <input type="email" placeholder="Email" class="border-b-2 w-[70%] outline-none">
+        <input type="password" placeholder="Password" class="border-b-2 w-[70%] outline-none">
+        <p class="font-bold">Dont have an accont yet ?</p>
+        <a href="" class="font-bold bg-yellow-500 px-16 py-3 rounded-[30px]">Sign In</a>
+      </div>
+    </div>
+  </main>
 
 
-    <!-- the end of footer section -->
+  <!-- the end of main section -->
 
-    <script src="script/footer-navbar.js"></script>
-  </body>
+  <!-- this is the footer section -->
+
+
+
+  <!-- the end of footer section -->
+
+  <script src="script/footer-navbar.js"></script>
+</body>
+
 </html>

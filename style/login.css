@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.loger{
+    border-radius: 30% 30% 30% 30%;
+    left: 47%;
+    transition: 0.3s;
+}
+
+.loger:hover{
+    left: -15%;
+}
+.loger .cont{
+    left: 15%;
+}
+.loger:hover .cont{
+    right:5% ;
+}
