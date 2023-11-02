@@ -5,7 +5,6 @@ function footerDesktop(){
     return`
     <div>
     <div class="xl:flex justify-between bg-slate-800 p-6 md:p-10 ">
-    
     <div class="flex p-4">
     <img src="pictures/mail-icon.png" class="h-16 mr-6">
     <div class="text-white">
