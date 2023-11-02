@@ -85,16 +85,21 @@ function tablet(){
             right[key].style.display = "none"
     })
     return `
-    <div class="bg-black">
-    <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
-    <div id="mobileNav" class="text-white flex flex-col text-3xl hidden w-screen text-center">
-            <a class="py-2" href="index.html">HOME</a>
-            <a class="py-2" href="clothes.html">CLOTHES</a>
-            <a class="py-2" href="accessories.html">accessories</a>
-            <a class="py-2" href="nutrition.html">NURITION</a>
-            <a class="py-2" href="coatching.html">COACHING</a>
-            </div>
-            </div>
+        <div class="bg-black">
+        <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
+        <div id="mobileNav" class="text-white flex flex-col text-3xl hidden w-screen text-center">
+        <a class="py-2" href="index.html">HOME</a>
+        <a id="mobileClothes" class="py-2" href="clothes.html">CLOTHES</a>
+        <div id="matSubmenu" class="flex flex-col text-2xl p-0">
+            <a href="clothes.html" class="">-Man-</a>
+            <a href="clothes.html" class="">-Woman-</a>
+        </div>
+        <a id="mobileMaterial" class="py-2" href="Materiel1.html">MATERIAL</a>
+        <a class="py-2" href="accessories.html">ACCESSOIRES</a>
+        <a class="py-2" href="nutrition.html">NURITION</a>
+        <a class="py-2" href="coatching.html">COACHING</a>
+        </div>
+        </div>
             `
         }
         
@@ -115,7 +120,7 @@ function tablet(){
                 </div>
                 <div id="eq" class="">
                     <a class="text-2xl pr-8 font-bold" href="#" >EQUIPMENT</a>
-                    <div id="se" class="absolute flex flex-col text-white bg-black hidden">
+                    <div id="se" class="absolute flex flex-col text-white bg-black hidden ">
                         <a href="" class="pl-6 py-1">Equipement</a> <br>
                         <a href="accessories.html" class="bg-red-400 py-1 px-8">Accessoir</a>
                     </div>
