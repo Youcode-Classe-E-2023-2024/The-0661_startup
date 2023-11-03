@@ -11,12 +11,12 @@
     transition: 0.3s;
 }
 
-.loger:hover{
+/* .loger:hover{
     left: -15%;
-}
+} */
 .loger .cont{
     left: 15%;
 }
-.loger:hover .cont{
+/* .loger:hover .cont{
     right:5% ;
-}
+} */
