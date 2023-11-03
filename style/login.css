@@ -13,6 +13,9 @@ body{
     background-repeat: no-repeat;
     padding: 100px 0;
 }
+form{
+    width: 70%;
+}
 .loger{
     border-radius: 30% 30% 30% 30%;
     left: 47%;
@@ -35,11 +38,17 @@ body{
    width: 1000px;
   
 }
+.signin1,.signin{
+    width: 50%;
+
+}
 @media (max-width:1080px) {
     #loger{
         display: none;
     }
-    
+    form{
+        width: 100%;
+    }
     .flexer{
         flex-direction: column;
         justify-content: center;
@@ -54,7 +63,7 @@ body{
     }
     
     .signin1,.signin{
-        width: 100%;
+        width: 90%;
 
     }
     .icons{
