@@ -50,21 +50,27 @@
         </div>
 
         <p class="font-medium">or use your Email and Password</p>
-        <input type="email" placeholder="Email" class="border-b-2 w-[70%] outline-none">
+        <form class="w-[70%] h-fit" id="form" action="#">
+          <input type="text" onkeydown="validation1()" id="email" placeholder="Email"
+            class="border-b-2 w-[100%] outline-none">
+          <span id="text"></span>
+        </form>
         <input type="password" placeholder="Password" class="border-b-2 w-[70%] outline-none">
+
         <p class="font-bold">Dont have an accont yet ?</p>
         <div class="font-bold bg-yellow-500 px-16 py-3 rounded-[30px]">Sign In</div>
       </div>
 
       <div id="loger" class="loger absolute py-36 h-[600px] w-[70%]  flex justify-evenly  bg-yellow-400">
-        
-        <div id="cont"  class="cont absolute  flex flex-col justify-evenly items-center">
+
+        <div id="cont" class="cont absolute  flex flex-col justify-evenly items-center">
           <h1 class="font-bold mb-5 text-[45px]">welcome, friend !</h1>
           <p class="text-white mb-5 font-bold text-center text-[20px] w-fit">Register with your personel details to <br>
             use all of site features</p>
-          <a id="registerButton" href="#" class="font-bold  bg-transparent border-[2px] border-white px-16 py-3 rounded-[30px]">Sign Up</a>
+          <a id="registerButton" href="#"
+            class="font-bold  bg-transparent border-[2px] border-white px-16 py-3 rounded-[30px]">Sign Up</a>
         </div>
-      
+
       </div>
       <div class="signin py-[5%] flex flex-col justify-evenly items-center w-[50%]">
         <h1 class="font-bold text-[40px] pb-7">CREATE ACCOUNT</h1>
@@ -76,9 +82,15 @@
         </div>
 
         <p class="font-medium">or use your Email and Password</p>
+
         <input type="text" placeholder="UserName" class="border-b-2 w-[70%] outline-none">
-        <input type="email" placeholder="Email" class="border-b-2 w-[70%] outline-none">
+        <form class="w-[70%] h-fit" id="form1" action="#">
+          <input type="text" onkeydown="validation()" id="email1" placeholder="Email"
+            class="border-b-2 w-[100%] outline-none">
+          <span id="text1"></span>
+        </form>
         <input type="password" placeholder="Password" class="border-b-2 w-[70%] outline-none">
+
         <p class="font-bold">Dont have an accont yet ?</p>
         <a href="" class="font-bold bg-yellow-500 px-16 py-3 rounded-[30px]">Sign Up</a>
       </div>
@@ -94,26 +106,71 @@
 
   <!-- the end of footer section -->
 
-  <script src="script/footer-navbar.js"></script>
-</body>
-  <script>
-    var check = 0;
-    var signIn = document.getElementById("registerButton")
-    var loger = document.getElementById("loger")
-    var logerCont = document.getElementById("cont")
-    signIn.addEventListener("click", function(){
-      if(!check){
-        loger.style.left = "-15%"
-        cont.style.right = "5%"
-        signIn.textContent = "Sign in"
-        check = 1;
-      } else {
-        loger.style.left = "47%"
-        cont.style.right = "25%"
-        signIn.textContent = "Sign up"
-        check = 0;
+  <script type="text/javascript">
+    function validation1() {
+      var form = document.getElementById("form");
+      var email = document.getElementById("email").value;
+      var text = document.getElementById("text");
+      var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+      if (email.match(pattern)) {
+        form.classList.add("valid");
+        form.classList.remove("invalid");
+        text.innerHTML = "Your Email Address is Valid";
+        text.style.color = "#00ff00";
+        text.style.fontWeight = "700";
       }
-    })
+      else {
+        form.classList.remove("valid");
+        form.classList.add("invalid");
+        text.innerHTML = "Please enter valid Email Address";
+        text.style.color = "#ff0000";
+        text.style.fontWeight = "700";
+      }
+    }
+    function validation() {
+      var form = document.getElementById("form1");
+      var email = document.getElementById("email1").value;
+      var text = document.getElementById("text1");
+      var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+      if (email.match(pattern)) {
+        form.classList.add("valid");
+        form.classList.remove("invalid");
+        text.innerHTML = "Your Email Address is Valid";
+        text.style.color = "#00ce00";
+        text.style.fontWeight = "700";
+      }
+      else {
+        form.classList.remove("valid");
+        form.classList.add("invalid");
+        text.innerHTML = "Please enter valid Email Address";
+        text.style.color = "#ff0000";
+        text.style.fontWeight = "700";
+      }
+    }
+
   </script>
+</body>
+<script>
+  var check = 0;
+  var signIn = document.getElementById("registerButton")
+  var loger = document.getElementById("loger")
+  var logerCont = document.getElementById("cont")
+  signIn.addEventListener("click", function () {
+    if (!check) {
+      loger.style.left = "-15%"
+      cont.style.right = "5%"
+      signIn.textContent = "Sign in"
+      check = 1;
+    } else {
+      loger.style.left = "47%"
+      cont.style.right = "25%"
+      signIn.textContent = "Sign up"
+      check = 0;
+    }
+  })
+</script>
+
 
 </html>
