@@ -25,8 +25,8 @@ if(localStorage.length > 0){
     imgHide.style.display = "none";
     for(let x = 0; x < localStorage.length; x++){
         var item = JSON.parse(localStorage.getItem(x)); 
-        items.innerHTML += item.name + "+" ;
-        priceSpan.innerHTML += item.price + "$" + "+"
+        items.innerHTML += item.name;
+        priceSpan.innerHTML += item.price + "MAD"
     }
 }
-items.innerHTML += "Total: " + item.total;
+items.innerHTML +="<br>" + "Total: " + item.total;
