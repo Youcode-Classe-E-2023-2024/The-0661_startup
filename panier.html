@@ -41,16 +41,23 @@
     <section class="w-[100vw] flex my-[30px] justify-center absolute top-16 items-center  h-[100vh]">
 
       <div class="flexxx absolute flex h-fit gap-6">
-        <div class="container1 py-[10px] flex flex-col justify-evenly items-center py-30%  rounded-3xl bg-white">
-          <div id="items" class="flex items-center">
-            <span id="priceSpan" class="text-4xl "></span>
-            <h1 class="text-3xl text-bold mt-2" id="heading"></h1>
+        <div class="container1 pt-[30px] flex flex-col justify-evenly  rounded-3xl bg-white">
+          <div id="containerPanier" class="flex flex-col justify-between text-center">
+
+          <div id="items" class=" flex flex-col justify-around gap-10 p-10 overflow-y-scroll h-[400px] ">
+
+           
           </div>
-          <img id="imgHide" src="pictures/pngkey 1.png" class="w-1/2 " alt="">
-          <div class="pader flex flex-col items-center justify-evenly text-center h-[200px]">
+          <h1 class="text-[20px]  font-bold">Total : <span  id="totalSpan" class="text-red-700"></span></h1>
+         </div>
+          <div id="imgHide" class="flex flex-col justify-evenly gap-10 items-center">
+          <img  src="pictures/pngkey 1.png" class="w-1/2  " alt="">
+          <div class="pader  flex-col items-center justify-evenly text-center ">
           <h1 id="empty" class="font-bold text-[20px]">Your bag is emty</h1>
-          <h1 class="text-[20px]">Have an account? Sign in to see your items.</h1>
-          <a href="index.html" class="hoving py-[15px] bg-black w-fit font-bold text-white rounded-xl px-[40px]">Shop now</a>
+           </div>
+
+         
+     
         </div>
         </div>
 
