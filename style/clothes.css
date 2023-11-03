@@ -52,10 +52,19 @@
     flex-direction: row;
     gap: 50px;
 }
-.btn-rg{
+.decrease-button{
     background-color: #B62323;
     color: #fff;
     width: 40px;
+}
+.increase-button{
+    background-color: #B62323;
+    color: #fff;
+    width: 40px;
+}
+.quantity-display{
+    font-size: 20px;
+   
 }
 .btn-grs{
     background-color:#838383 ;
@@ -237,7 +246,7 @@
 }
 /* Start clothesW */
 .pic-back{
-    background-image: url("pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
+    background-image: url("/pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -361,7 +370,7 @@
 
 /* start clothesM */
 .pic-backM{
-    background-image: url("pictures/photo/gym\ 1.png");
+    background-image: url("/pictures/photo/gym\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
