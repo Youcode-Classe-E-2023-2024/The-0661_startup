@@ -49,6 +49,54 @@ body{
     height: fit-content;
 }
 
+
+
+[type=text]{
+    
+background-image: url(/pictures/klipartz.com.png);
+  background-position: calc(100% - 8px)  center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding: 1em 16px 1em 1em;
+  border: 1px solid;
+}
+
+
+
+[type=text]:not(:placeholder-shown) {
+    background-image: none;
+  }
+[type=text2]{
+    
+background-image: url(/pictures/1klipartz.com.png);
+  background-position: calc(100% - 8px)  center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding: 1em 16px 1em 1em;
+  border: 1px solid;
+}
+
+
+
+[type=text2]:not(:placeholder-shown) {
+    background-image: none;
+  }
+[type=text3]{
+    
+background-image: url(/pictures/2klipartz.com.png);
+  background-position: calc(100% - 8px)  center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding: 1em 16px 1em 1em;
+  border: 1px solid;
+}
+
+
+
+[type=text3]:not(:placeholder-shown) {
+    background-image: none;
+  }
+
 @media (max-width:1550px) {
     .container3{
         width: 80%;
