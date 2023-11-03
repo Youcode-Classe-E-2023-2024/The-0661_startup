@@ -70,7 +70,7 @@
 
         <div id="cont" class="cont absolute  flex flex-col justify-evenly items-center">
           <h1 class="font-bold mb-5 text-[45px]">welcome, friend !</h1>
-          <p class="text-white mb-5 font-bold text-center text-[20px] w-fit">Register with your personel details to <br>
+          <p class="messageanas text-white mb-5 font-bold text-center text-[20px] w-fit">Register with your personel details to <br>
             use all of site features</p>
           <a id="registerButton" href="#"
             class="font-bold  bg-transparent border-[2px] border-white px-16 py-3 rounded-[30px]">Sign Up</a>
@@ -165,17 +165,20 @@
   var signIn = document.getElementById("registerButton")
   var loger = document.getElementById("loger")
   var logerCont = document.getElementById("cont")
+  const messageanas = document.querySelector('.messageanas');
   signIn.addEventListener("click", function () {
     if (!check) {
       loger.style.left = "-15%"
       cont.style.right = "5%"
       signIn.textContent = "Sign in"
+      messageanas.textContent = "allready registered? sign-in"
       check = 1;
     } else {
       loger.style.left = "47%"
       cont.style.right = "25%"
       signIn.textContent = "Sign up"
       check = 0;
+      messageanas.textContent = "Register with your personel details"
     }
   })
 </script>
