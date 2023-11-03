@@ -4,7 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    position: relative;
+    height: fit-content;
 
+    background-image: url(/pictures/Login.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
 .loger{
     border-radius: 30% 30% 30% 30%;
     left: 47%;
@@ -23,6 +31,8 @@
 .flexer{
    left: 5%;
    top: 20%; 
+   margin: 30px 0  1;
+   width: 1000px;
   
 }
 @media (max-width:1080px) {
@@ -39,7 +49,7 @@
         transform: translate(-50% , -50%);
         top: 50%;
         left: 50%;
-        width: 400px;
+        width: 350px;
         height:fit-content ;
     }
     
@@ -52,5 +62,8 @@
     }
     .marger {
         margin: 15px;
+    }
+    .pader{
+        position: relative;
     }
 }
