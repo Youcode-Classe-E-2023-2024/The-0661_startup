@@ -246,7 +246,8 @@
 }
 /* Start clothesW */
 .pic-back{
-    background-image: url("/pictures/photo/young-woman-sitting-by-dumbbells-gym\ 1.png");
+    background-image: url(../pictures/photo/youngwoman.png);
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -370,7 +371,9 @@
 
 /* start clothesM */
 .pic-backM{
-    background-image: url("/pictures/photo/gym\ 1.png");
+
+    background-image: url(../pictures/photo/gym1.png);
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
