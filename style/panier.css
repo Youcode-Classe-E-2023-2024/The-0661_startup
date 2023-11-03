@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container1{
+    width: 600px;
+    height: 700px;
+}
+
+.container2{
+    width: 500px;
+    height: 700px;
+}
+.container3{
+    width: 1000px;
+    height: fit-content;
+}
+.container4{
+    width: 500px;
+    height: 850px;
+}
+.hoving{
+    transition: 0.1s;
+    border: 2px solid rgba(0, 0, 0, 0);
+    
+}
+.hoving:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid black;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: beige;
+    
+    background-image: url(/pictures/panierbg.png);
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+.comer{
+    width: 25%;
+}
+
+.holllder{
+    height: fit-content;
+}
+
+
+
+[type=text]{
+    
+background-image: url(/pictures/klipartz.com.png);
+  background-position: calc(100% - 8px)  center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding: 1em 16px 1em 1em;
+  border: 1px solid;
+}
+
+
+
+[type=text]:not(:placeholder-shown) {
+    background-image: none;
+  }
+[type=text2]{
+    
+background-image: url(/pictures/1klipartz.com.png);
+  background-position: calc(100% - 8px)  center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding: 1em 16px 1em 1em;
+  border: 1px solid;
+}
+
+
+
+[type=text2]:not(:placeholder-shown) {
+    background-image: none;
+  }
+[type=text3]{
+    
+background-image: url(/pictures/2klipartz.com.png);
+  background-position: calc(100% - 8px)  center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding: 1em 16px 1em 1em;
+  border: 1px solid;
+}
+
+
+
+[type=text3]:not(:placeholder-shown) {
+    background-image: none;
+  }
+
+@media (max-width:1550px) {
+    .container3{
+        width: 80%;
+        height: 30%;
+        margin: auto;
+    }
+    .container4{
+        width: 80%;
+        height: 30%;
+        margin: auto;
+    }
+    .flexxx1{
+        flex-direction: column;
+        width: 100vw;
+
+    }
+}
+@media (max-width:1134px) {
+
+    .flexxx{
+        flex-direction: column;
+        width: 100vw;
+
+    }
+
+    .container1 {
+        width: 80%;
+        height: 30%;
+        margin: auto;
+    }
+   .container2{
+        width: 80%;
+        height: 30%;
+        margin: auto;
+    }
+}
+@media (max-width:800px) {
+    .urmama{
+        flex-direction: column;
+        padding: auto;
+        align-items: center;
+    }
+    
+    .comer{
+        width: 90%;
+        text-align: center;
+        margin: 10px 0 20px;
+        
+    }
+    .totaler{
+        border-bottom: 2px solid black;
+        padding: 10px;
+    }
+}
