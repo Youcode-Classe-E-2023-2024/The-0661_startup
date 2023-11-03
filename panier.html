@@ -42,9 +42,13 @@
 
       <div class="flexxx absolute flex h-fit gap-6">
         <div class="container1 py-[10px] flex flex-col justify-evenly items-center py-30%  rounded-3xl bg-white">
-          <img src="pictures/pngkey 1.png" class="w-1/2 " alt="">
+          <div id="items" class="flex items-center">
+            <span id="priceSpan" class="text-4xl "></span>
+            <h1 class="text-3xl text-bold mt-2" id="heading"></h1>
+          </div>
+          <img id="imgHide" src="pictures/pngkey 1.png" class="w-1/2 " alt="">
           <div class="pader flex flex-col items-center justify-evenly text-center h-[200px]">
-          <h1 class="font-bold text-[20px]">Your bag is emty</h1>
+          <h1 id="empty" class="font-bold text-[20px]">Your bag is emty</h1>
           <h1 class="text-[20px]">Have an account? Sign in to see your items.</h1>
           <a href="index.html" class="hoving py-[15px] bg-black w-fit font-bold text-white rounded-xl px-[40px]">Shop now</a>
         </div>
@@ -86,7 +90,8 @@
 
   <!-- the end of footer section -->
 
-  <script src="script/footer-navbar.js"></script>
+  <script src="script/footer-navbar.js"></script> 
+  <script src="script/localStorage.js"></script>
 </body>
 
 </html>
