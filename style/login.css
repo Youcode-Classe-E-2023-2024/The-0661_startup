@@ -4,7 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    position: relative;
+    height: fit-content;
 
+    background-image: url(../pictures/Login.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+form{
+    width: 70%;
+}
 .loger{
     border-radius: 30% 30% 30% 30%;
     left: 47%;
@@ -23,13 +34,21 @@
 .flexer{
    left: 5%;
    top: 20%; 
+   margin: 30px 0  1;
+   width: 1000px;
   
+}
+.signin1,.signin{
+    width: 50%;
+
 }
 @media (max-width:1080px) {
     #loger{
         display: none;
     }
-    
+    form{
+        width: 100%;
+    }
     .flexer{
         flex-direction: column;
         justify-content: center;
@@ -39,12 +58,12 @@
         transform: translate(-50% , -50%);
         top: 50%;
         left: 50%;
-        width: 400px;
+        width: 350px;
         height:fit-content ;
     }
     
     .signin1,.signin{
-        width: 100%;
+        width: 90%;
 
     }
     .icons{
@@ -52,5 +71,8 @@
     }
     .marger {
         margin: 15px;
+    }
+    .pader{
+        position: relative;
     }
 }
