@@ -33,10 +33,8 @@
 }
 body{
     width: 100vw;
-    min-height: 100vh;
-    background-color: beige;
-    
-    background-image: url(/pictures/panierbg.png);
+    min-height: fit-content;
+    background-image: url(../pictures/panierbg.png);
     background-size: 100% 100%;
     background-position: center;
     
