@@ -50,15 +50,19 @@
         </div>
 
         <p class="font-medium">or use your Email and Password</p>
-        <form class="w-[70%] h-fit" id="form" action="#">
-          <input type="text" onkeydown="validation1()" id="email" placeholder="Email"
-            class="border-b-2 w-[100%] outline-none">
+        <form class="w-[70%] h-fit flex flex-col justify-center" id="form" action="index.html">
+          <input type="text" onkeydown="validation1()" id="email"  placeholder="Email"
+            class="border-b-2 w-[100%] outline-none "required>
           <span id="text"></span>
-        </form>
-        <input type="password" placeholder="Password" class="border-b-2 w-[70%] outline-none">
 
-        <p class="font-bold">Dont have an accont yet ?</p>
-        <div class="font-bold bg-yellow-500 px-16 py-3 rounded-[30px]">Sign In</div>
+          <input type="password" placeholder="Password"  class="border-b-2 my-9 w-[100%] outline-none" required>
+
+          <input type="submit"  value="Sign-In" href="index.html"  class="z-0 font-bold my-5 mx-auto bg-yellow-400  text-white px-16 py-3 rounded-[30px]">
+        </form>
+
+
+        
+      
       </div>
 
       <div id="loger" class="loger absolute py-36 h-[600px] w-[70%]  flex justify-evenly  bg-yellow-400">
@@ -83,16 +87,19 @@
 
         <p class="font-medium">or use your Email and Password</p>
 
-        <input type="text" placeholder="UserName" class="border-b-2 w-[70%] outline-none">
-        <form class="w-[70%] h-fit" id="form1" action="#">
-          <input type="text" onkeydown="validation()" id="email1" placeholder="Email"
-            class="border-b-2 w-[100%] outline-none">
+        <form class="w-[70%] h-fit flex flex-col justify-center" id="form1" action="index.html">
+          <input type="text" placeholder="User Name"  class="border-b-2 my-9 w-[100%] outline-none" required>
+          <input type="email" onkeydown="validation()" id="email1"  placeholder="Email"
+            class="border-b-2 w-[100%] outline-none "required>
           <span id="text1"></span>
-        </form>
-        <input type="password" placeholder="Password" class="border-b-2 w-[70%] outline-none">
 
-        <p class="font-bold">Dont have an accont yet ?</p>
-        <a href="" class="font-bold bg-yellow-500 px-16 py-3 rounded-[30px]">Sign Up</a>
+          <input type="password" placeholder="Password"  class="border-b-2 my-9 w-[100%] outline-none" required>
+
+          <input type="submit"  value="Sign-In" href="index.html"  class="z-0 font-bold my-5 mx-auto bg-yellow-400  text-white px-16 py-3 rounded-[30px]">
+        </form>
+        
+
+        
       </div>
     </div>
   </main>
