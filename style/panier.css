@@ -15,7 +15,7 @@
 }
 .container3{
     width: 1000px;
-    height: 850px;
+    height: fit-content;
 }
 .container4{
     width: 500px;
@@ -38,6 +38,7 @@ body{
     
     background-image: url(/pictures/panierbg.png);
     background-size: 100% 100%;
+    background-position: center;
     
 }
 .comer{
