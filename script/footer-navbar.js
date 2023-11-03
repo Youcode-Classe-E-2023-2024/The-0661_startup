@@ -88,7 +88,7 @@ function tablet(){
         <img id="burger" class="w-10 h-10 cursor-pointer" src="pictures/burger.svg">
         <div id="mobileNav" class="text-white flex flex-col text-3xl hidden w-screen text-center">
         <a class="py-2" href="index.html">HOME</a>
-        <a id="mobileClothes" class="py-2" href="clothes.html">CLOTHES</a>
+        <a id="mobileClothes" class="py-2" href="clothesM.html">CLOTHES</a>
         <div id="matSubmenu" class="flex flex-col text-2xl p-0">
             <a href="clothesM.html" class="">-Man-</a>
             <a href="clothesW.html" class="">-Woman-</a>
@@ -115,7 +115,7 @@ function tablet(){
             <nav class="flex relative">
                 <a class="text-2xl font-bold pr-8" href="index.html">HOME </a>
                 <div id="clothes" class="">
-                    <a class="text-2xl pr-8 font-bold" href="clothes.html" >CLOTHES</a>
+                    <a class="text-2xl pr-8 font-bold" href="#" >CLOTHES</a>
                     <div id="sex" class="absolute flex flex-col text-white bg-black hidden">
                         <a href="clothesM.html" class="px-4 pl-8 py-1">Man</a> <br>
                         <a href="clothesW.html" class="bg-red-400 py-1 px-8">Woman</a>

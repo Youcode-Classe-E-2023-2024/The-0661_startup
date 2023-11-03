@@ -18,8 +18,33 @@
 
   <!-- this is the navbar section -->
 
-  <nav id="navbar">
-  </nav>
+  <div class="bg-[#D9D9D990] backdrop-blur z-[99] fixed top-0 w-full flex justify-between items-center py-4 px-8">
+    <img src="pictures/logo.png" alt="" class="w-[201px]">
+    <nav class="flex relative">
+      <a class="text-2xl font-bold pr-8" href="index.html">HOME </a>
+      <div id="clothes" class="">
+        <a class="text-2xl pr-8 font-bold" href="clothesM.html">CLOTHES</a>
+        <div id="sex" class="absolute flex flex-col text-white bg-black hidden">
+          <a href="clothesM.html" class="px-4 pl-8 py-1">Man</a> <br>
+          <a href="clothesW.html" class="bg-red-400 py-1 px-8">Woman</a>
+        </div>
+      </div>
+      <div id="eq" class="">
+        <a class="text-2xl pr-8 font-bold" href="Materiel1.html">EQUIPMENT</a>
+        <div id="se" class="absolute flex flex-col text-white bg-black hidden ">
+          <a href="Materiel1.html" class="pl-6 py-1">Material</a> <br>
+          <a href="accessories.html" class="bg-red-400 py-1 px-8">Accessories</a>
+        </div>
+      </div>
+      <a class="text-2xl pr-8 font-bold" href="nutrition.html">NUTRITION </a>
+      <a class="text-2xl pr-8 font-bold" href="coatching.html">COATCHING </a>
+    </nav>
+    <div class="flex flex-row items-center">
+      <a href=""><img class="w-[24px] h-[24px] mx-2" src="pictures/navbar/search.svg"></a>
+      <a href="panier.html"><img class="w-[28px] h-[28px] mx-2" src="pictures/navbar/shop.svg"></a>
+      <a href="login.html"><img class="w-[24px] h-[24px] mx-2" src="pictures/navbar/user.svg"></a>
+    </div>
+  </div>`
 
 
 
@@ -44,44 +69,52 @@
         <div class="container1 pt-[30px] flex flex-col justify-evenly  rounded-3xl bg-white">
           <div id="containerPanier" class="flex flex-col justify-between text-center">
 
-          <div id="items" class=" flex flex-col justify-around gap-10 p-10 overflow-y-scroll h-[400px] ">
+            <div id="items" class=" flex flex-col justify-around gap-10 p-10 overflow-y-scroll h-[400px] ">
 
-           
+
+            </div>
+            <h1 class="text-[20px]  font-bold">Total : <span id="totalSpan" class="text-red-700"></span></h1>
           </div>
-          <h1 class="text-[20px]  font-bold">Total : <span  id="totalSpan" class="text-red-700"></span></h1>
-         </div>
           <div id="imgHide" class="flex flex-col justify-evenly gap-10 items-center">
-          <img  src="pictures/pngkey 1.png" class="w-1/2  " alt="">
-          <div class="pader  flex-col items-center justify-evenly text-center ">
-          <h1 id="empty" class="font-bold text-[20px]">Your bag is emty</h1>
-           </div>
+            <img src="pictures/pngkey 1.png" class="w-1/2  " alt="">
+            <div class="pader  flex-col items-center justify-evenly text-center ">
+              <h1 id="empty" class="font-bold text-[20px]">Your bag is emty</h1>
+            </div>
 
-         
-     
-        </div>
+
+
+          </div>
         </div>
 
 
         <div class="container2 flex flex-col justify-evenly items-center rounded-3xl bg-white">
-          <h1 class="font-bold text-[30px] text-center flex items-center justify-center h-[50%]">Choose Payment <br> option</h1>
+          <h1 class="font-bold text-[30px] text-center flex items-center justify-center h-[50%]">Choose Payment <br>
+            option</h1>
           <div class="inputs  w-[100%] flex flex-col justify-evenly items-center h-full">
-            <input type="text" placeholder="Debit / Credit card" class="bold flex justify-between my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]" style="font-family: Arial, FontAwesome">
-      
+            <input type="text" placeholder="Debit / Credit card"
+              class="bold flex justify-between my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]"
+              style="font-family: Arial, FontAwesome">
+
             </input>
 
-            <input type="text2" placeholder="Internet Banking " class="bold flex justify-between my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]" style="font-family: Arial, FontAwesome"> 
+            <input type="text2" placeholder="Internet Banking "
+              class="bold flex justify-between my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]"
+              style="font-family: Arial, FontAwesome">
             </input>
 
-            <input type="text3" placeholder="Apple-Pay" class="bold flex justify-between my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]" style="font-family: Arial, FontAwesome">
-          </input>
+            <input type="text3" placeholder="Apple-Pay"
+              class="bold flex justify-between my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]"
+              style="font-family: Arial, FontAwesome">
+            </input>
 
-          <select name="Options" class="bold flex justify-between mb-32 my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]" id="cars">
-            <option value="Other options">Other options</option>
-            <option value="op1">1</option>
-            <option value="op2">2</option>
-            <option value="op3">3</option>
-            <option value="op4">4</option>
-          </select>
+            <select name="Options"
+              class="bold flex justify-between mb-32 my-5 py-6 px-3 bg-slate-300 rounded-lg w-[90%]" id="cars">
+              <option value="Other options">Other options</option>
+              <option value="op1">1</option>
+              <option value="op2">2</option>
+              <option value="op3">3</option>
+              <option value="op4">4</option>
+            </select>
           </div>
         </div>
       </div>
@@ -97,7 +130,9 @@
 
   <!-- the end of footer section -->
 
-  <script src="script/footer-navbar.js"></script> 
+  <script>
+
+  </script>
   <script src="script/localStorage.js"></script>
 </body>
 
