@@ -1,0 +1,16 @@
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.next, .prev{
+    height: 25px;
+    transition: .4s;
+}
+
+.next:hover, .prev:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .4s;
+}
